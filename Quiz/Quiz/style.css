@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+
+  border: 5px solid rgb(12, 12, 166);
+}
+
+.Outer div {
+  padding: 20px;
+}
