@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  border: 5px solid rgb(12, 12, 166);
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+}
+
+.Outer-div {
+  padding: 12px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.Top-div {
+  padding: 5px;
+  color: antiquewhite;
+  font-size: 30px;
+  background-color: rgb(228, 129, 0);
+  color: rgb(0, 0, 0);
+}
+
+p {
+  float: right;
+  background-color: beige;
+}
+
+button {
+  color: purple;
+  font: bold;
+  font-size: 30px;
+  background-color: beige;
+}
+
+.Inner-div {
+  height: 100%;
+  background-color: black;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(89, 89, 38);
+  outline: auto;
+  background-color: beige;
+}
+
+p2 {
+  color: antiquewhite;
+}
