@@ -2,3 +2,4 @@
 2. Set up all divs
 3. add some css
 4. style the div's
+5. main page complete
