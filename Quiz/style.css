@@ -55,14 +55,35 @@ h1 {
   text-align: center;
 }
 
-p2 {
+.Inner-div p {
   color: antiquewhite;
   background-color: rgb(51, 50, 50);
 }
 
 .Begin-quiz button {
+  display: none;
   display: block;
   justify-content: center;
   width: 50%;
   margin-left: 25%;
+}
+
+main {
+  display: none;
+}
+.Questions {
+  display: none;
+}
+
+.End-screen {
+  display: none;
+  overflow-y: scroll;
+  max-height: 150px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0.8rem;
+  transition: transform 150ms;
+  transform: scale(1.1);
 }

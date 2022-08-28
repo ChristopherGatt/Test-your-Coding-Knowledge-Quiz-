@@ -1,0 +1,64 @@
+body {
+  color: rgb(228, 12, 12);
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  background: purple;
+  font-size: 3rem;
+  min-width: 80rem;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem;
+  transform: scale(1.02);
+  transform: transform 100ms;
+}
+
+.choice-prefix {
+  padding: 2rem 2.5rem;
+  color: #fff;
+}
+.choice-text {
+padding: 2rem;
+width:100%
+  }
+
+  .correct {
+    background: linear-gradient(32deg, green);
+
+  }
+
+  .incorrect {
+background: linear-gradient(32deg, red);
+  }
+
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#
+  @media query and (max-width:768px) {
+  .choice-container{
+    min-width: 40rem;
+  }
+  }
+    
+  }
